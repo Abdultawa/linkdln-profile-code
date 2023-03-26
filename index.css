@@ -70,3 +70,17 @@ small {
     flex-direction: column;
     justify-content: space-between;
 }
+@media only screen and (max-width: 480px) {
+    body{
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .container2{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
